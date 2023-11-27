@@ -1,0 +1,49 @@
+.manga-details-container {
+    display: flex;
+  }
+  
+  .manga-cover-container {
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .manga-cover-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(10px);
+  }
+  
+  .manga-details-content {
+    flex: 1;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .volume-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-height: 30%;
+    overflow-y: auto;
+  }
+  
+  .volume-list li {
+    margin-bottom: 5px;
+  }
+  
+  .volume-link {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .volume-link:hover {
+    background-color: #f0f0f0;
+  }
+  
