@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/julierv.github.io/Sneaky-Manga/static/css/main.ec3aedc0.css",
-    "main.js": "/julierv.github.io/Sneaky-Manga/static/js/main.ac47ac81.js",
-    "static/js/787.bd6235b9.chunk.js": "/julierv.github.io/Sneaky-Manga/static/js/787.bd6235b9.chunk.js",
-    "index.html": "/julierv.github.io/Sneaky-Manga/index.html",
-    "main.ec3aedc0.css.map": "/julierv.github.io/Sneaky-Manga/static/css/main.ec3aedc0.css.map",
-    "main.ac47ac81.js.map": "/julierv.github.io/Sneaky-Manga/static/js/main.ac47ac81.js.map",
-    "787.bd6235b9.chunk.js.map": "/julierv.github.io/Sneaky-Manga/static/js/787.bd6235b9.chunk.js.map"
+    "main.css": "/Sneaky-Manga/static/css/main.ec3aedc0.css",
+    "main.js": "/Sneaky-Manga/static/js/main.cf5f883c.js",
+    "static/js/787.bd6235b9.chunk.js": "/Sneaky-Manga/static/js/787.bd6235b9.chunk.js",
+    "index.html": "/Sneaky-Manga/index.html",
+    "main.ec3aedc0.css.map": "/Sneaky-Manga/static/css/main.ec3aedc0.css.map",
+    "main.cf5f883c.js.map": "/Sneaky-Manga/static/js/main.cf5f883c.js.map",
+    "787.bd6235b9.chunk.js.map": "/Sneaky-Manga/static/js/787.bd6235b9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ec3aedc0.css",
-    "static/js/main.ac47ac81.js"
+    "static/js/main.cf5f883c.js"
   ]
 }
