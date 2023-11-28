@@ -1,6 +1,6 @@
 # Sneaky Manga
 
-![Sneaky Manga Logo](public/logo512.png)
+![Sneaky Manga Logo](Image0Header.png)
 
 Sneaky Manga is a React application that allows users to explore and read manga seamlessly. This app utilizes a custom API to fetch manga information and covers.
 
