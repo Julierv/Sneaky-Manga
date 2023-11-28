@@ -28,7 +28,7 @@ Sneaky Manga is a React application that allows users to explore and read manga 
 
 ## API
 
-The application uses a custom API to fetch manga information and covers.
+The application uses a private NodeJS API is used to fetch manga information and covers.
 
 ## Contributing
 
@@ -37,7 +37,8 @@ The application uses a custom API to fetch manga information and covers.
 - Make your changes and commit them: git commit -m 'Add my feature'.
 - Push to the branch: git push origin feature/my-feature.
 - Open a pull request.
-All changes are welcomed apart from those that could compromise copyright. For instance trying to deblur the manga panels in the ImageViewer component
+All changes are welcomed apart from those that could compromise copyright. For instance trying to deblur the manga panels in the ImageViewer component.
+
 
 ## Installation
 
