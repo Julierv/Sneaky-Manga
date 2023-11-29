@@ -73,7 +73,7 @@
   }
 
   .manga-page{
-    filter: blur(3px);
+    filter: blur(4px);
   }
 
   @media screen and (max-width: 480px) {
