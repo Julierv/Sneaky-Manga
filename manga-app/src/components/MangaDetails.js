@@ -42,7 +42,7 @@ const MangaDetails = ({ match }) => {
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et convallis lacus, quis pulvinar augue. In hac habitasse platea dictumst. Etiam ut mattis libero.</p>
         <h2>Tags</h2>
         <p>Lorem - ipsum - dolor</p>
-        <h2>Volumes</h2>
+        <h2>Volume List</h2>
         <ul className="volume-list">
           {volumes.map(volume => (
             <li key={volume}>

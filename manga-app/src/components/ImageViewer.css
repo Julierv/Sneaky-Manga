@@ -1,5 +1,6 @@
 .image-viewer-container {
     position: relative;
+    background-color: black;
   }
   
   .navigation-buttons {
@@ -11,6 +12,7 @@
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
+    z-index: 999;
   }
   
   .navigation-buttons button {
@@ -35,7 +37,7 @@
   }
   
   .navigation-buttons select {
-    padding: 8px;
+    padding: 10px;
     border-radius: 6px;
   }
   
@@ -54,8 +56,62 @@
   
   .image-container img {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     object-fit: contain;
+  }
+
+  .navigation-buttons button:nth-child(1) {
+    margin-right: auto;
+  }
+  
+  .navigation-buttons button:nth-child(2) {
+    margin-right: 10px;
+  }
+  
+  .navigation-buttons select {
+    margin-left: auto;
+  }
+
+  .manga-page{
+    /*filter: blur(0px);*/
+  }
+
+  @media screen and (max-width: 480px) {
+    .navigation-buttons select {
+        border-radius: 6px;
+        width: 120%;
+        height: 4vh;
+        text-indent: 8px;
+      }
+    .navigation-buttons {
+        position: absolute;
+        top: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 10%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .navigation-buttons button {
+        background-color: #00ADB5;
+        color: #fff;
+        padding: 12px;
+        margin-right: 1px;
+        padding-right: 15px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+      }
+
+    .navigation-buttons label {
+        color: #333;
+        margin-right: 10px;
+        padding: 10px;
+    }
+      
   }
   
   

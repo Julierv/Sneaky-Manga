@@ -1,6 +1,6 @@
 .manga-link {
     text-decoration: none;
-    background-color: #EEEEEE;
+    background-color: rgb(38, 38, 38);
     padding: 10px;
     border-radius: 6px;
     text-align: center;
@@ -10,7 +10,7 @@
   }
   
   .manga-link:hover {
-    background-color: #00ADB5;
+    background-color: #393E46;
   }
   
   .manga-link img {
@@ -22,5 +22,79 @@
   .manga-link h3 {
     color: black;
     margin: 5px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #222;
+  }
+  
+  .home-button {
+    text-decoration: none;
+    height: 40px;
+    margin-left: 40px;
+    background-color: #393E46;
+    padding: 10px;
+    border-radius: 20px;
+  }
+
+  .home-button:hover {
+    background-color: #454b55;
+  }
+  
+  .search-bar {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 6px;
+    margin-right: 32.5%;
+    max-width: 35%;
+    height: 3vh;
+  }
+  
+  
+
+  @media screen and (max-width: 480px) {
+    .manga-link {
+      width: 75px;
+
+    }
+
+    .manga-link img {
+      height: 112px;
+    }
+
+    .manga-link h3 {
+      color: black;
+      margin: 0px;
+      font-size: 8px;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      background-color: #222;
+      height: 6vh;
+    }
+
+    .home-button {
+      text-decoration: none;
+      height: 40px;
+      margin-left: 10px;
+      background-color: #393E46;
+      padding: 10px;
+      border-radius: 20px;
+    }
+
+    .search-bar {
+      margin-right: 15%;
+      max-width: 60%;
+      height: 3.5vh;
+    }
   }
   
