@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Sneaky-Manga/static/css/main.ba60d25f.css",
-    "main.js": "/Sneaky-Manga/static/js/main.eb276ab5.js",
+    "main.js": "/Sneaky-Manga/static/js/main.13951e02.js",
     "static/js/787.bd6235b9.chunk.js": "/Sneaky-Manga/static/js/787.bd6235b9.chunk.js",
     "index.html": "/Sneaky-Manga/index.html",
     "main.ba60d25f.css.map": "/Sneaky-Manga/static/css/main.ba60d25f.css.map",
-    "main.eb276ab5.js.map": "/Sneaky-Manga/static/js/main.eb276ab5.js.map",
+    "main.13951e02.js.map": "/Sneaky-Manga/static/js/main.13951e02.js.map",
     "787.bd6235b9.chunk.js.map": "/Sneaky-Manga/static/js/787.bd6235b9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ba60d25f.css",
-    "static/js/main.eb276ab5.js"
+    "static/js/main.13951e02.js"
   ]
 }
