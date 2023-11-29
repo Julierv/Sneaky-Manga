@@ -9,7 +9,7 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/" component={MangaList} />
+        <Route exact path="/Sneaky-Manga" component={MangaList} />
         <Route path="/manga/:name/:volume" component={ImageViewer} />
         <Route path="/manga/:name" component={MangaDetails} />
       </Switch>
