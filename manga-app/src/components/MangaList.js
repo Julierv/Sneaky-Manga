@@ -25,7 +25,7 @@ const MangaList = () => {
   return (
     <div>
       <header className="header">
-        <Link to="/" className="home-button">
+        <Link to="/Sneaky-Manga" className="home-button">
           <img style={{height: '100%'}}src={logo} alt="Home" />
         </Link>
         <input
