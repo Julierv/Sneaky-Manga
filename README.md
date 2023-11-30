@@ -2,7 +2,7 @@
 
 ![Sneaky Manga Logo](Image0Header.png)
 
-Sneaky Manga is a  React application designed to provide users with a seamless and immersive manga reading experience. This application is powered by a proprietary API and a curated personal database, enabling the efficient retrieval of manga pages, detailed information, and covers. In other words took F hours to organize and allocate my own personal manga database but it was truly fun!!
+Sneaky Manga is a  React application designed to provide users with a seamless and immersive manga reading experience. This application is powered by a proprietary API and a curated personal database, enabling the efficient retrieval of manga pages, detailed information, and covers. In other words took F hours to organize and allocate my own personal manga database but it was a truly fun experience !!
 
 `Website Link:` https://julierv.github.io/Sneaky-Manga/#/
 
