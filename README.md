@@ -4,7 +4,9 @@
 
 Sneaky Manga is a React application that allows users to explore and read manga seamlessly. This app utilizes a custom API to fetch manga information and covers.
 
-`Website Link:`
+`Website Link:` https://julierv.github.io/Sneaky-Manga/#/
+
+`Disclaimer:` This application unequivocally disavows any support for the distribution of copyrighted content. It has been designed with features crafted to prevent infringements of copyrights. The sole purpose of this project is to provide entertainment to users, and it is not intended for the unauthorized distribution or consumption of copyrighted material. I encourage any users to respect intellectual property rights and adhere to applicable laws while utilizing this application.
 
 ## Table of Contents
 
