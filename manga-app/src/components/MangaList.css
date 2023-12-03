@@ -1,100 +1,249 @@
 .manga-link {
-    text-decoration: none;
-    background-color: rgb(38, 38, 38);
-    padding: 10px;
-    border-radius: 6px;
-    text-align: center;
-    margin: 10px;
-    width: 250px;
-    transition: background-color 0.3s;
-  }
-  
-  .manga-link:hover {
-    background-color: #393E46;
-  }
-  
-  .manga-link img {
-    width: 100%;
-    height: 375px;
-    border-radius: 6px;
-  }
-  
-  .manga-link h3 {
-    color: black;
-    margin: 5px;
+  text-decoration: none;
+  background-color: rgb(1, 1, 1);
+  text-align: center;
+  width: 250px;
+  height: 100%;
+  border-radius: 6px;
+}
+
+.react-multi-carousel-track{
+  width: 92%;
+}
+
+.react-multi-carousel-list{
+  margin-bottom: 20px;
+}
+
+.carousel-item{
+  width: 250px;
+  align-items: center;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-radius: 6px;
+}
+
+.manga-link img {
+  width: 250px;
+  height: 375px;
+  border-radius: 6px;
+}
+
+.manga-link h3 {
+  color: rgb(255, 255, 255);
+  margin-top: 2px;
+  font-weight: 400;
+}
+
+.react-multi-carousel-list{
+  height: 405px;
+  width: 92%;
+  left: 4%;
+}
+
+.row-title{
+  display: flex;
+  justify-content: normal;
+  align-items: start;
+  gap: 15px;
+  height: 40px;
+  margin-bottom: 8px;
+}
+
+.clasification{
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 600;
+  margin-left: 6%;
+}
+
+.view-class {
+  color: rgb(255, 255, 255);
+  margin-right: 30%;
+  font-size: 12px;
+  font-weight: 800;
+  margin-top: 3px;
+  padding: 10px;
+  background-color: rgb(214, 21, 21);
+  border-radius: 20px;
+  border: 0;
+  cursor: pointer;
+  text-decoration: none;
+}
+.view-class:hover{
+  background-color: #fddc23;
+  color: black;
+}
+
+.genres{
+  height: 180px;
+  width: 95%;
+  margin-left: 2.5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2%;
+  margin-top: 0;
+}
+.genre-button1{
+  position: relative;
+  height: 80%;
+  width: 30%;
+  margin-left: 2%;
+  border-radius: 30px;
+  background-color: #fc123e;
+  border: 0;
+  color: #ffffff;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.genre-button2{
+  position: relative;
+  height: 80%;
+  width: 30%;
+  border-radius: 30px;
+  background-color: #fddc23;
+  border: 0;
+  color: #ffffff;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.genre-button3{
+  position: relative;
+  height: 80%;
+  width: 30%;
+  border-radius: 30px;
+  background-color: #1bd1f8;
+  border: 0;
+  color: #ffffff;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.genre-button4{
+  position: relative;
+  height: 80%;
+  width: 30%;
+  margin-right: 2%;
+  border-radius: 30px;
+  background-color: #750ed5;
+  border: 0;
+  color: #ffffff;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+@media screen and (max-width: 480px) {
+  .manga-link {
+    width: 180px;
+
   }
 
-  .header {
+  .react-multi-carousel-list{
+    margin-bottom: 20px;
+    height: 290px;
+  }
+
+  .react-multi-carousel-track{
+  }
+
+
+  .manga-link img {
+    width: 180px;
+    height: 270px;
+    border-radius: 6px;
+  }
+
+  .manga-link h3 {
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    font-size: 12px;
+  }
+
+  .row-title{
+    height: 40px;
+    text-indent: 6%;
+    font-size: 20px;
+    margin-bottom: 6px;
+    font-weight: 500;
+    gap: 20px;
+  }
+
+
+  .clasification{
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 600;
+    margin-left: 8%;
+    margin-top: 3px;
+    display: inline;
+  }
+
+  .view-class {
+    margin-right: 30%;
+    font-size: 10px;
+    font-weight: 800;
+    margin-top: 2px;
+  }
+
+  .genre-button4{
+    display: none;
+  }
+
+  .genres{
+    height: 140px;
+    width: 95%;
+    margin-left: 2.5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
-    background-color: #222;
-  }
-  
-  .home-button {
-    text-decoration: none;
-    height: 40px;
-    margin-left: 40px;
-    background-color: #393E46;
-    padding: 10px;
-    border-radius: 20px;
+    gap: 1%;
+    margin-top: 0;
   }
 
-  .home-button:hover {
-    background-color: #454b55;
+  .genre-button1{
+    position: relative;
+    height: 80%;
+    width: 32%;
   }
-  
-  .search-bar {
-    flex: 1;
-    padding: 8px;
-    border: none;
+  .genre-button2{
+    position: relative;
+    height: 80%;
+    width: 32%;
+  }
+  .genre-button3{
+    position: relative;
+    height: 80%;
+    width: 32%;
+  }
+
+  .carousel-item{
+    width: 250px;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
     border-radius: 6px;
-    margin-right: 32.5%;
-    max-width: 35%;
-    height: 3vh;
   }
-  
-  
+}
 
-  @media screen and (max-width: 480px) {
-    .manga-link {
-      width: 75px;
 
-    }
 
-    .manga-link img {
-      height: 112px;
-    }
-
-    .manga-link h3 {
-      color: black;
-      margin: 0px;
-      font-size: 8px;
-    }
-
-    .header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 10px;
-      background-color: #222;
-      height: 6vh;
-    }
-
-    .home-button {
-      text-decoration: none;
-      height: 40px;
-      margin-left: 10px;
-      background-color: #393E46;
-      padding: 10px;
-      border-radius: 20px;
-    }
-
-    .search-bar {
-      margin-right: 15%;
-      max-width: 60%;
-      height: 3.5vh;
-    }
-  }
   
