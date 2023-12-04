@@ -26,7 +26,9 @@ const ViewAllMangaPage = ({ match }) => {
   return (
     <div>
       <div className='header2'>
-        <h1 style={{textAlign:'left', marginLeft:'4%'}}>{classification[0].toUpperCase() + classification.slice(1)} Manga</h1>
+        <h1 style={{ textAlign: 'left', marginLeft: '4%' }}>
+          {classification.toLowerCase() === 'alphabetical' ? 'All' : classification[0].toUpperCase() + classification.slice(1)} Manga
+        </h1>
         <input
           type="text"
           placeholder="Search"
