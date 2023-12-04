@@ -12,7 +12,7 @@ const MangaList = () => {
   const [allMangaList, setAllMangaList] = useState([]);
 
   useEffect(() => {
-    // Fetch data for the Popular carousel
+    // fetch data for the Popular carousel
     axios.get('https://34.173.150.41:3003/api/manga/popular-10')
       .then(response => {
         setPopularMangaList(response.data);
@@ -21,7 +21,7 @@ const MangaList = () => {
         console.error('Error fetching popular manga list:', error);
       });
 
-    // Fetch data for the Last Updated carousel
+    // fetch data for the Last Updated carousel
     axios.get('https://34.173.150.41:3003/api/manga/latest-10')
       .then(response => {
         setUpdatedMangaList(response.data);
@@ -30,7 +30,7 @@ const MangaList = () => {
         console.error('Error fetching last updated manga list:', error);
       });
 
-    // Fetch data for the Completed carousel
+    // fetch data for the Completed carousel
     axios.get('https://34.173.150.41:3003/api/manga/completed-10')
       .then(response => {
         setCompletedMangaList(response.data);
@@ -39,7 +39,7 @@ const MangaList = () => {
         console.error('Error fetching completed manga list:', error);
       });
 
-    // Fetch data for the All carousel
+    // fetch data for the All carousel
     axios.get('https://34.173.150.41:3003/api/manga/alphabetical-10')
       .then(response => {
         setAllMangaList(response.data);
@@ -51,7 +51,6 @@ const MangaList = () => {
 
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5
     },
@@ -74,7 +73,7 @@ const MangaList = () => {
       <div>
         <div style={{marginTop:'20px'}}className="row-title"> 
           <div  className='clasification'>Popular</div>
-          <Link to="/view-all/popular" className='view-class'>more</Link>
+          <Link to="/Sneaky-Manga/view-all/popular" className='view-class'>more</Link>
         </div>
         <Carousel itemClass="carousel-item" responsive={responsive} sliderClass= "react-multi-carousel-track">
           {popularMangaList.map(mangaName => (
@@ -86,7 +85,7 @@ const MangaList = () => {
       <div>
           <div className="row-title"> 
           <div  className='clasification'>All</div>
-          <Link to="/view-all/alphabetical" className='view-class'>more</Link>
+          <Link to="/Sneaky-Manga/view-all/alphabetical" className='view-class'>more</Link>
           </div>
           <Carousel itemClass="carousel-item" responsive={responsive} sliderClass= "react-multi-carousel-track">
             {allMangaList.map(mangaName => (
@@ -99,16 +98,16 @@ const MangaList = () => {
           <div  className='clasification'>Genres</div>
           </div>
       <div className='genres'>
-        <Link to="/view-all/action" className='genre-button1'>
+        <Link to="/Sneaky-Manga/view-all/action" className='genre-button1'>
           Action
         </Link>
-        <Link to="/view-all/adventure" className='genre-button2'>
+        <Link to="/Sneaky-Manga/view-all/adventure" className='genre-button2'>
           Adventure
         </Link>
-        <Link to="/view-all/comedy" className='genre-button3'>
+        <Link to="/Sneaky-Manga/view-all/comedy" className='genre-button3'>
           Comedy
         </Link>
-        <Link to="/view-all/horror" className='genre-button4'>
+        <Link to="/Sneaky-Manga/view-all/horror" className='genre-button4'>
           Horror
         </Link>
       </div>
@@ -116,7 +115,7 @@ const MangaList = () => {
       <div>
           <div className="row-title"> 
             <div  className='clasification'>Updates</div>
-            <Link to="/view-all/latest" className='view-class'>more</Link>
+            <Link to="/Sneaky-Manga/view-all/latest" className='view-class'>more</Link>
           </div>
           <Carousel itemClass="carousel-item" responsive={responsive} sliderClass= "react-multi-carousel-track">
             {updatedMangaList.map(mangaName => (
@@ -128,7 +127,7 @@ const MangaList = () => {
       <div>
           <div className="row-title"> 
            <div  className='clasification'>Completed</div>
-           <Link to="/view-all/completed" className='view-class'>more</Link>
+           <Link to="/Sneaky-Manga/view-all/completed" className='view-class'>more</Link>
           </div>
           <Carousel itemClass="carousel-item" responsive={responsive} sliderClass= "react-multi-carousel-track">
             {completedMangaList.map(mangaName => (
