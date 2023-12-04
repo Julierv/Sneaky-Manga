@@ -11,9 +11,9 @@ function App() {
     <Router>
       <Switch>
         <Route exact path="/Sneaky-Manga" component={MangaList} />
-        <Route path="/manga/:name/:volume" component={ImageViewer} />
-        <Route path="/manga/:name" component={MangaDetails} />
-        <Route path="/view-all/:classification" component={ViewAllMangaPage} />
+        <Route path="/Sneaky-Manga/manga/:name/:volume" component={ImageViewer} />
+        <Route path="/Sneaky-Manga/manga/:name" component={MangaDetails} />
+        <Route path="/Sneaky-Manga/view-all/:classification" component={ViewAllMangaPage} />
       </Switch>
     </Router>
   );

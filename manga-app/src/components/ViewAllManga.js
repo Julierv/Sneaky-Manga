@@ -58,7 +58,7 @@ const MangaCover = ({ manga }) => {
   }, [manga]);
 
   return (
-    <Link to={`/manga/${manga.name}`} className="manga-link2" id={`manga-link2-${manga.name}`}>
+    <Link to={`/Sneaky-Manga/manga/${manga.name}`} className="manga-link2" id={`manga-link2-${manga.name}`}>
       <img src={cover} alt={manga.name} />
       <h3>{manga.name}</h3>
     </Link>

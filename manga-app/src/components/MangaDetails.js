@@ -61,7 +61,7 @@ const MangaDetails = ({ match }) => {
         <ul className="volume-list">
           {volumes.map(volume => (
             <li key={volume}>
-              <Link to={`/manga/${name}/${volume}`} className="volume-link">
+              <Link to={`/Sneaky-Manga/manga/${name}/${volume}`} className="volume-link">
                 {volume.replace(/[()]/g, '')}
               </Link>
             </li>

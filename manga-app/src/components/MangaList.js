@@ -82,14 +82,14 @@ const MangaList = () => {
           ))}
         </Carousel>
       </div>
-        
+
       <div>
           <div className="row-title"> 
-            <div  className='clasification'>Updates</div>
-            <Link to="/view-all/latest" className='view-class'>more</Link>
+          <div  className='clasification'>All</div>
+          <Link to="/view-all/alphabetical" className='view-class'>more</Link>
           </div>
           <Carousel itemClass="carousel-item" responsive={responsive} sliderClass= "react-multi-carousel-track">
-            {updatedMangaList.map(mangaName => (
+            {allMangaList.map(mangaName => (
               <MangaCover key={mangaName} mangaName={mangaName} />
             ))}
           </Carousel>
@@ -115,6 +115,18 @@ const MangaList = () => {
 
       <div>
           <div className="row-title"> 
+            <div  className='clasification'>Updates</div>
+            <Link to="/view-all/latest" className='view-class'>more</Link>
+          </div>
+          <Carousel itemClass="carousel-item" responsive={responsive} sliderClass= "react-multi-carousel-track">
+            {updatedMangaList.map(mangaName => (
+              <MangaCover key={mangaName} mangaName={mangaName} />
+            ))}
+          </Carousel>
+      </div>
+
+      <div>
+          <div className="row-title"> 
            <div  className='clasification'>Completed</div>
            <Link to="/view-all/completed" className='view-class'>more</Link>
           </div>
@@ -125,17 +137,6 @@ const MangaList = () => {
           </Carousel>
       </div>
 
-      <div>
-          <div className="row-title"> 
-          <div  className='clasification'>All</div>
-          <Link to="/view-all/alphabetical" className='view-class'>more</Link>
-          </div>
-          <Carousel itemClass="carousel-item" responsive={responsive} sliderClass= "react-multi-carousel-track">
-            {allMangaList.map(mangaName => (
-              <MangaCover key={mangaName} mangaName={mangaName} />
-            ))}
-          </Carousel>
-      </div>
     </div>
     
   );
@@ -155,7 +156,7 @@ const MangaCover = ({ mangaName }) => {
   }, [mangaName]);
 
   return (
-    <Link to={`/manga/${mangaName.name}`} className="manga-link" id={`manga-link-${mangaName.name}`}>
+    <Link to={`/Sneaky-Manga/manga/${mangaName.name}`} className="manga-link" id={`manga-link-${mangaName.name}`}>
       <img src={cover} alt={mangaName.name} />
       <h3>{mangaName.name}</h3>
     </Link>
