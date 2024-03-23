@@ -11,7 +11,7 @@ const ImageViewer = ({ match }) => {
   const history = useHistory();
 
   useEffect(() => {
-    axios.get(`https://34.173.150.41:3003/api/manga/${name}/${volume}`)
+    axios.get(`https://34.133.7.18:3003/api/manga/${name}/${volume}`)
       .then(response => {
         setImages(response.data);
       })

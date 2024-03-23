@@ -13,7 +13,7 @@ const MangaList = () => {
 
   useEffect(() => {
     // fetch data for the Popular carousel
-    axios.get('https://34.173.150.41:3003/api/manga/popular-10')
+    axios.get('https://34.133.7.18:3003/api/manga/popular-10')
       .then(response => {
         setPopularMangaList(response.data);
       })
@@ -22,7 +22,7 @@ const MangaList = () => {
       });
 
     // fetch data for the Last Updated carousel
-    axios.get('https://34.173.150.41:3003/api/manga/latest-10')
+    axios.get('https://34.133.7.18:3003/api/manga/latest-10')
       .then(response => {
         setUpdatedMangaList(response.data);
       })
@@ -31,7 +31,7 @@ const MangaList = () => {
       });
 
     // fetch data for the Completed carousel
-    axios.get('https://34.173.150.41:3003/api/manga/completed-10')
+    axios.get('https://34.133.7.18:3003/api/manga/completed-10')
       .then(response => {
         setCompletedMangaList(response.data);
       })
@@ -40,7 +40,7 @@ const MangaList = () => {
       });
 
     // fetch data for the All carousel
-    axios.get('https://34.173.150.41:3003/api/manga/alphabetical-10')
+    axios.get('https://34.133.7.18:3003/api/manga/alphabetical-10')
       .then(response => {
         setAllMangaList(response.data);
       })
