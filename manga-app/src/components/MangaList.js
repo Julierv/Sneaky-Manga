@@ -145,7 +145,7 @@ const MangaCover = ({ mangaName }) => {
   const [cover, setCover] = useState('');
 
   useEffect(() => {
-    axios.get(`https://34.173.150.41:3003/api/cover/${mangaName.name}`)
+    axios.get(`https://34.133.7.18:3003/api/cover/${mangaName.name}`)
       .then(response => {
         setCover(response.data);
       })
