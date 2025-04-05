@@ -9,7 +9,7 @@ const ViewAllMangaPage = ({ match }) => {
   const [searchTerm, setSearchTerm] = useState('');
 
   useEffect(() => {
-    axios.get(`https://34.173.150.41:3003/api/manga/${classification}`)
+    axios.get(`https://335.196.229.17/api/manga/${classification}`)
       .then(response => {
         setList(response.data);
         console.log(response.data);
@@ -50,7 +50,7 @@ const MangaCover = ({ manga }) => {
   const [cover, setCover] = useState('');
 
   useEffect(() => {
-    axios.get(`https://34.173.150.41:3003/api/cover/${manga.name}`)
+    axios.get(`https://35.196.229.17/api/cover/${manga.name}`)
       .then(response => {
         setCover(response.data);
       })

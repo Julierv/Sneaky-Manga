@@ -9,7 +9,7 @@ const MangaDetails = ({ match }) => {
   const [volumes, setVolumes] = useState([]);
 
   useEffect(() => {
-    axios.get(`https://34.133.7.18:3003/api/name/${name}`)
+    axios.get(`https://35.196.229.17/api/name/${name}`)
       .then(response => {
         setManga(response.data);
       })
@@ -17,7 +17,7 @@ const MangaDetails = ({ match }) => {
         console.error(`Error fetching cover for ${name}:`, error);
       });
 
-    axios.get(`https://34.133.7.18:3003/api/manga/${name}/nums`)
+    axios.get(`https://35.196.229.17/api/manga/${name}/nums`)
       .then(response => {
         const sortedVolumes = response.data.sort((a, b) => {
           const numA = parseInt(a.match(/\d+/)[0], 10);
