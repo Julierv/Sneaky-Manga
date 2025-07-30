@@ -9,7 +9,7 @@ const ViewAllMangaPage = ({ match }) => {
   const [searchTerm, setSearchTerm] = useState('');
 
   useEffect(() => {
-    axios.get(`https://335.196.229.17/api/manga/${classification}`)
+    axios.get(`https://35.196.229.17/api/manga/${classification}`)
       .then(response => {
         setList(response.data);
         console.log(response.data);
